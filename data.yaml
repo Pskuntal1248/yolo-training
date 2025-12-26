@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: glider-umpjg
+  project: powerfoot-2-82ojd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/glider-umpjg/powerfoot-2-82ojd/dataset/1
