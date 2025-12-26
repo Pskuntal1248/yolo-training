@@ -1,0 +1,28 @@
+# Training outputs
+runs/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Logs
+*.log
+training_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep labels (small text files)
+!train/labels/
+!valid/labels/
+!test/labels/
