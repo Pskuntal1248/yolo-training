@@ -8,7 +8,7 @@ import torch
 if torch.cuda.is_available():
     device = 0  # NVIDIA GPU
     batch = 32  # Large batch for dedicated GPU
-    workers = 8
+    workers = 4
     print(f" Using CUDA GPU: {torch.cuda.get_device_name(0)}")
     print(f" GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
 elif torch.backends.mps.is_available():

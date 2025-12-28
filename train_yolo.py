@@ -2,53 +2,54 @@ from ultralytics import YOLO
 import torch
 import os
 
-print("="*60)
-print("YOLO TRAINING SETUP - OPTIMIZED FOR WINDOWS GPU")
-print("="*60)
+if __name__ == '__main__':
+    print("="*60)
+    print("YOLO TRAINING SETUP - OPTIMIZED FOR WINDOWS GPU")
+    print("="*60)
 
-# GPU Detection and Configuration
-print("\n[1] Checking GPU availability...")
-if torch.cuda.is_available():
-    gpu_count = torch.cuda.device_count()
-    print(f"✅ CUDA Available: YES")
-    print(f"   GPU Count: {gpu_count}")
-    print(f"   GPU Name: {torch.cuda.get_device_name(0)}")
-    print(f"   CUDA Version: {torch.version.cuda}")
-    print(f"   GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
-    
-    device = 0  # Use first GPU
-    batch = 16  # Safe batch size for most GPUs
-    workers = 4  # Optimal for Windows
-    
-    # Set CUDA optimizations
-    torch.backends.cudnn.benchmark = True
-    os.environ['CUDA_LAUNCH_BLOCKING'] = '0'
-    
-    print(f"\n[2] Training Configuration:")
-    print(f"   Device: GPU (cuda:0)")
-    print(f"   Batch Size: {batch}")
-    print(f"   Workers: {workers}")
-    
-else:
-    print("❌ CUDA NOT Available!")
-    print("\n   To fix this:")
-    print("   1. Install CUDA-enabled PyTorch:")
-    print("      pip uninstall torch torchvision")
-    print("      pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118")
-    print("   2. Verify: python -c \"import torch; print(torch.cuda.is_available())\"")
-    
-    device = 'cpu'
-    batch = 8
-    workers = 2
-    print(f"\n   Falling back to CPU (SLOW!)")
+    # GPU Detection and Configuration
+    print("\n[1] Checking GPU availability...")
+    if torch.cuda.is_available():
+        gpu_count = torch.cuda.device_count()
+        print(f"✅ CUDA Available: YES")
+        print(f"   GPU Count: {gpu_count}")
+        print(f"   GPU Name: {torch.cuda.get_device_name(0)}")
+        print(f"   CUDA Version: {torch.version.cuda}")
+        print(f"   GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
+        
+        device = 0  # Use first GPU
+        batch = 16  # Safe batch size for most GPUs
+        workers = 4  # Optimal for Windows
+        
+        # Set CUDA optimizations
+        torch.backends.cudnn.benchmark = True
+        os.environ['CUDA_LAUNCH_BLOCKING'] = '0'
+        
+        print(f"\n[2] Training Configuration:")
+        print(f"   Device: GPU (cuda:0)")
+        print(f"   Batch Size: {batch}")
+        print(f"   Workers: {workers}")
+        
+    else:
+        print("❌ CUDA NOT Available!")
+        print("\n   To fix this:")
+        print("   1. Install CUDA-enabled PyTorch:")
+        print("      pip uninstall torch torchvision")
+        print("      pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118")
+        print("   2. Verify: python -c \"import torch; print(torch.cuda.is_available())\"")
+        
+        device = 'cpu'
+        batch = 8
+        workers = 2
+        print(f"\n   Falling back to CPU (SLOW!)")
 
-print("\n[3] Loading YOLOv8s model...")
-model = YOLO('yolov8s.pt')
+    print("\n[3] Loading YOLOv8s model...")
+    model = YOLO('yolov8s.pt')
 
-print("\n[4] Starting training...")
-print("="*60)
+    print("\n[4] Starting training...")
+    print("="*60)
 
-results = model.train(
+    results = model.train(
     data='data.yaml',
     epochs=100,
     imgsz=640,
@@ -90,17 +91,17 @@ results = model.train(
     mosaic=1.0,
     mixup=0.0,
     copy_paste=0.0,
-)
+    )
 
-# Print training results
-print("\n" + "="*50)
-print("Training Complete!")
-print("="*50)
-print(f"Best model saved at: {results.save_dir}/weights/best.pt")
-print(f"Last model saved at: {results.save_dir}/weights/last.pt")
-print("\nTo validate the model, run:")
-print(f"  model = YOLO('{results.save_dir}/weights/best.pt')")
-print("  metrics = model.val()")
-print("\nTo run inference:")
-print(f"  model = YOLO('{results.save_dir}/weights/best.pt')")
-print("  results = model.predict(source='path/to/image.jpg', save=True)")
+    # Print training results
+    print("\n" + "="*50)
+    print("Training Complete!")
+    print("="*50)
+    print(f"Best model saved at: {results.save_dir}/weights/best.pt")
+    print(f"Last model saved at: {results.save_dir}/weights/last.pt")
+    print("\nTo validate the model, run:")
+    print(f"  model = YOLO('{results.save_dir}/weights/best.pt')")
+    print("  metrics = model.val()")
+    print("\nTo run inference:")
+    print(f"  model = YOLO('{results.save_dir}/weights/best.pt')")
+    print("  results = model.predict(source='path/to/image.jpg', save=True)")
