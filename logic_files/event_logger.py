@@ -1,6 +1,7 @@
 
 import numpy as np
 from logic_files.utils import measure_distance
+from logic_files.failed_pass_detector import FailedPassDetector
 
 
 class EventLogger:
@@ -292,3 +293,61 @@ class EventLogger:
             if 'interceptor' in event:
                 print(f"      Interceptor: Player {event['interceptor']['id']} (Team {event['interceptor']['team']})")
             print(f"      Distance: {event['pass_distance']:.1f}m at {event['ball_speed']:.1f} km/h")
+
+    def detect_ghost_passes(self, tracks, video_frames=None, output_dir='ghost_pass_analysis'):
+        """
+        Comprehensive ghost pass detection using FailedPassDetector.
+        
+        This method provides detailed analysis of failed passes including:
+        - Precise release and failure frame detection
+        - Open teammate analysis (who was ignored)
+        - Frame extraction for visual analysis
+        - Tactical state vectors for DB queries
+        
+        Args:
+            tracks: Dictionary of tracked objects
+            video_frames: Optional list of video frames for extraction
+            output_dir: Directory to save extracted frames and clips
+            
+        Returns:
+            Dict with failed pass analysis and ghost data
+        """
+        # Initialize the detailed detector
+        detector = FailedPassDetector(fps=self.fps)
+        
+        # Detect all failed passes with detailed analysis
+        failed_passes = detector.detect_failed_passes(tracks)
+        
+        # Export detailed failed pass data
+        detector.export_failed_passes(f'{output_dir}/failed_passes_detailed.json')
+        
+        # Extract frames if video provided
+        if video_frames is not None:
+            import os
+            os.makedirs(output_dir, exist_ok=True)
+            
+            # Extract key frames for each failed pass
+            detector.extract_failed_pass_frames(
+                video_frames, 
+                output_dir=f'{output_dir}/frames'
+            )
+            
+            # Create video clips of each failed pass
+            detector.create_all_pass_clips(
+                video_frames,
+                output_dir=f'{output_dir}/clips',
+                fps=self.fps
+            )
+        
+        # Get ghost analysis data (for vector DB queries)
+        ghost_data = detector.get_ghost_analysis_data()
+        
+        print(f"\n👻 Ghost Pass Analysis Complete:")
+        print(f"   Total failed passes detected: {len(failed_passes)}")
+        print(f"   Output directory: {output_dir}")
+        
+        return {
+            'failed_passes': failed_passes,
+            'ghost_data': ghost_data,
+            'detector': detector
+        }

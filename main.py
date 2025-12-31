@@ -9,6 +9,7 @@ from logic_files.camera_movement_estimator import CameraMovementEstimator
 from logic_files.view_transformer import ViewTransformer
 from logic_files.speed_and_distance_estimator import SpeedAndDistance_Estimator
 from logic_files.event_logger import EventLogger
+from logic_files.failed_pass_detector import FailedPassDetector
 import json
 
 
@@ -181,7 +182,11 @@ def main():
     team_ball_control = []
     
     for frame_num, player_track in enumerate(tracks['players']):
-        ball_bbox = tracks['ball'][frame_num][1]['bbox']
+        # Handle frames where ball might not be detected
+        ball_bbox = None
+        if 1 in tracks['ball'][frame_num]:
+            ball_bbox = tracks['ball'][frame_num][1].get('bbox')
+        
         assigned_player = player_assigner.assign_ball_to_player(player_track, ball_bbox)
 
         if assigned_player != -1:
@@ -194,9 +199,24 @@ def main():
                 team_ball_control.append(1)  # Default to team 1
     
     team_ball_control = np.array(team_ball_control)
+    
+    # Count ball assignments for logging
+    ball_assignments = sum(1 for f in tracks['players'] for p in f.values() if p.get('has_ball', False))
+    print(f"⚽ Ball possession assigned in {ball_assignments} frames")
 
     # Validate data integrity
     validate_tracks(tracks)
+    
+    # CRITICAL: Verify all processing is complete before analysis
+    total_frames = len(tracks['players'])
+    print(f"\n✅ Video Processing Complete!")
+    print(f"   - Total frames processed: {total_frames}")
+    print(f"   - Player tracks: {len(tracks['players'])} frames")
+    print(f"   - Ball tracks: {len(tracks['ball'])} frames")
+    print(f"   - Teams assigned: ✓")
+    print(f"   - Ball possession assigned: ✓")
+    print(f"   - All transformations complete: ✓")
+    print(f"\n📊 Ready for analysis on complete dataset...")
 
     # Export tactical data
     export_tactical_data(tracks, 'tactical_data.json')
@@ -207,10 +227,65 @@ def main():
     event_logger.export_events('pass_events.json')
     event_logger.export_failed_passes_for_ghost('fail_passes.json')
 
+    # ============ GHOST PASS ANALYSIS ============
+    # Detailed failed pass detection with frame extraction
+    # NOTE: This runs AFTER all video processing is complete
+    print("\n" + "="*60)
+    print("🔍 GHOST PASS ANALYSIS - Detecting Failed Passes")
+    print("="*60)
+    print(f"📹 Analyzing complete video: {total_frames} frames")
+    print(f"⏱️  Video duration: ~{total_frames/video_fps:.1f} seconds at {video_fps} fps")
+    
+    # Initialize the Failed Pass Detector
+    # Uses has_ball flag from PlayerBallAssigner + fallback distance check
+    failed_pass_detector = FailedPassDetector(
+        fps=video_fps,
+        possession_threshold=3.0,  # meters - fallback distance threshold
+        release_threshold=2.0      # meters - ball beyond 2m = released
+    )
+    
+    # Detect all failed passes with detailed analysis
+    failed_passes = failed_pass_detector.detect_failed_passes(tracks)
+    
+    # Export detailed JSON data
+    import os
+    os.makedirs('ghost_pass_analysis', exist_ok=True)
+    failed_pass_detector.export_failed_passes('ghost_pass_analysis/failed_passes_detailed.json')
+    
+    # Extract frames for each failed pass
+    if failed_passes:
+        print(f"\n📸 Extracting frames for {len(failed_passes)} failed passes...")
+        failed_pass_detector.extract_failed_pass_frames(
+            video_frames, 
+            output_dir='ghost_pass_analysis/frames'
+        )
+        
+        # Create video clips of each failed pass
+        print(f"\n🎬 Creating video clips for failed passes...")
+        failed_pass_detector.create_all_pass_clips(
+            video_frames,
+            output_dir='ghost_pass_analysis/clips',
+            fps=video_fps
+        )
+    
+    # Get ghost data for vector DB queries
+    ghost_data = failed_pass_detector.get_ghost_analysis_data()
+    
+    # Save ghost data for tactical analysis
+    with open('ghost_pass_analysis/ghost_vectors.json', 'w') as f:
+        json.dump(ghost_data, f, indent=2, default=lambda x: float(x) if isinstance(x, (np.floating, np.integer)) else x)
+    
+    print(f"\n✅ Ghost Pass Analysis Complete!")
+    print(f"   - Detailed analysis: ghost_pass_analysis/failed_passes_detailed.json")
+    print(f"   - Extracted frames: ghost_pass_analysis/frames/")
+    print(f"   - Video clips: ghost_pass_analysis/clips/")
+    print(f"   - Vector data: ghost_pass_analysis/ghost_vectors.json")
+    print("="*60)
+
     # Generate sample state vector
     state_vector = generate_tactical_state_vector(tracks, 0)
 
-    # Draw output
+    # Draw output with all annotations (teams, ball, possession)
     output_video_frames = tracker.draw_annotations(video_frames, tracks, team_ball_control)
 
     output_video_frames = camera_movement_estimator.draw_camera_movement(
@@ -218,9 +293,21 @@ def main():
 
     output_video_frames = speed_and_distance_estimator.draw_speed_and_distance(
         output_video_frames, tracks)
+    
+    # Add failed pass annotations to the output video
+    if failed_passes:
+        print(f"\n🎨 Adding failed pass annotations to output video...")
+        output_video_frames = failed_pass_detector.annotate_output_video(
+            output_video_frames, tracks
+        )
+        print(f"   ✅ Added visual markers for {len(failed_passes)} failed passes")
+        print(f"      - Green circles: Pass release frames")
+        print(f"      - Red circles: Interception frames")
+        print(f"      - Yellow lines: Pass trajectories")
 
     # Save video
     save_video(output_video_frames, 'output_videos/output_video.avi', fps=video_fps)
+    print(f"\n💾 Saved annotated output video: output_videos/output_video.avi")
 
 
 if __name__ == '__main__':

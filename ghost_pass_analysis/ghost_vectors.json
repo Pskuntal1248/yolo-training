@@ -1,0 +1,1112 @@
+[
+  {
+    "event_id": 1,
+    "release_frame": 60,
+    "passer_id": 4,
+    "passer_team": 2,
+    "passer_position": [
+      11.02,
+      22.46
+    ],
+    "position_vector": [
+      30.96,
+      12.43,
+      0.66,
+      15.24,
+      16.17,
+      21.35,
+      3.91,
+      4.83,
+      1.18,
+      24.43,
+      30.09,
+      8.1,
+      15.34,
+      26.62,
+      20.85,
+      26.11,
+      16.48,
+      11.61,
+      26.66,
+      21.99,
+      22.38,
+      -0.46,
+      22.45,
+      14.6,
+      34.06,
+      23.25,
+      20.81,
+      21.72,
+      11.02,
+      22.46,
+      32.81,
+      10.62,
+      35.28,
+      14.69,
+      5.15,
+      14.59,
+      20.6,
+      8.65,
+      28.74,
+      5.7
+    ],
+    "open_teammates": [
+      {
+        "id": 8,
+        "position": [
+          5.15,
+          14.59
+        ],
+        "distance_from_passer": 9.81,
+        "lane_clearance": 4.54,
+        "speed_kmh": 3.9
+      },
+      {
+        "id": 26,
+        "position": [
+          28.74,
+          5.7
+        ],
+        "distance_from_passer": 24.39,
+        "lane_clearance": 2.67,
+        "speed_kmh": 8.4
+      },
+      {
+        "id": 1,
+        "position": [
+          22.45,
+          14.6
+        ],
+        "distance_from_passer": 13.87,
+        "lane_clearance": 2.01,
+        "speed_kmh": 4.4
+      }
+    ],
+    "tactical_snapshot": {
+      "frame": 60,
+      "timestamp": "00:00:02.400",
+      "players": {
+        "team_1": [
+          {
+            "id": 16,
+            "position": [
+              15.34,
+              26.62
+            ],
+            "speed_kmh": 19.4,
+            "has_ball": false
+          },
+          {
+            "id": 9,
+            "position": [
+              0.66,
+              15.24
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 18,
+            "position": [
+              20.85,
+              26.11
+            ],
+            "speed_kmh": 7.5,
+            "has_ball": false
+          },
+          {
+            "id": 23,
+            "position": [
+              26.66,
+              21.99
+            ],
+            "speed_kmh": 3.1,
+            "has_ball": false
+          },
+          {
+            "id": 10,
+            "position": [
+              16.17,
+              21.35
+            ],
+            "speed_kmh": 10.2,
+            "has_ball": false
+          },
+          {
+            "id": 11,
+            "position": [
+              3.91,
+              4.83
+            ],
+            "speed_kmh": 2.3,
+            "has_ball": false
+          },
+          {
+            "id": 12,
+            "position": [
+              1.18,
+              24.43
+            ],
+            "speed_kmh": 6.6,
+            "has_ball": false
+          },
+          {
+            "id": 6,
+            "position": [
+              30.96,
+              12.43
+            ],
+            "speed_kmh": 4.7,
+            "has_ball": false
+          },
+          {
+            "id": 19,
+            "position": [
+              16.48,
+              11.61
+            ],
+            "speed_kmh": 3.5,
+            "has_ball": false
+          },
+          {
+            "id": 14,
+            "position": [
+              30.09,
+              8.1
+            ],
+            "speed_kmh": 5.7,
+            "has_ball": false
+          },
+          {
+            "id": 29,
+            "position": [
+              22.38,
+              -0.46
+            ],
+            "speed_kmh": 4.3,
+            "has_ball": false
+          }
+        ],
+        "team_2": [
+          {
+            "id": 2,
+            "position": [
+              34.06,
+              23.25
+            ],
+            "speed_kmh": 5.7,
+            "has_ball": false
+          },
+          {
+            "id": 7,
+            "position": [
+              35.28,
+              14.69
+            ],
+            "speed_kmh": 8.6,
+            "has_ball": false
+          },
+          {
+            "id": 8,
+            "position": [
+              5.15,
+              14.59
+            ],
+            "speed_kmh": 3.9,
+            "has_ball": false
+          },
+          {
+            "id": 3,
+            "position": [
+              20.81,
+              21.72
+            ],
+            "speed_kmh": 3.9,
+            "has_ball": false
+          },
+          {
+            "id": 26,
+            "position": [
+              28.74,
+              5.7
+            ],
+            "speed_kmh": 8.4,
+            "has_ball": false
+          },
+          {
+            "id": 15,
+            "position": [
+              20.6,
+              8.65
+            ],
+            "speed_kmh": 5.0,
+            "has_ball": false
+          },
+          {
+            "id": 4,
+            "position": [
+              11.02,
+              22.46
+            ],
+            "speed_kmh": 5.5,
+            "has_ball": true
+          },
+          {
+            "id": 5,
+            "position": [
+              32.81,
+              10.62
+            ],
+            "speed_kmh": 4.9,
+            "has_ball": false
+          },
+          {
+            "id": 1,
+            "position": [
+              22.45,
+              14.6
+            ],
+            "speed_kmh": 4.4,
+            "has_ball": false
+          }
+        ]
+      },
+      "ball": null
+    }
+  },
+  {
+    "event_id": 2,
+    "release_frame": 130,
+    "passer_id": 12,
+    "passer_team": 1,
+    "passer_position": [
+      7.06,
+      18.53
+    ],
+    "position_vector": [
+      38.26,
+      13.19,
+      10.67,
+      12.4,
+      23.92,
+      18.37,
+      19.82,
+      5.25,
+      7.06,
+      18.53,
+      37.34,
+      10.6,
+      19.69,
+      24.39,
+      30.79,
+      22.29,
+      24.11,
+      11.66,
+      35.6,
+      3.14,
+      26.67,
+      12.76,
+      35.81,
+      18.24,
+      26.33,
+      18.72,
+      10.83,
+      18.31,
+      36.97,
+      11.28,
+      38.12,
+      15.15,
+      13.74,
+      12.77,
+      28.23,
+      9.07,
+      36.38,
+      7.76,
+      -2.84,
+      11.82
+    ],
+    "open_teammates": [
+      {
+        "id": 9,
+        "position": [
+          10.67,
+          12.4
+        ],
+        "distance_from_passer": 7.11,
+        "lane_clearance": 3.09,
+        "speed_kmh": 6.7
+      }
+    ],
+    "tactical_snapshot": {
+      "frame": 130,
+      "timestamp": "00:00:05.200",
+      "players": {
+        "team_1": [
+          {
+            "id": 16,
+            "position": [
+              19.69,
+              24.39
+            ],
+            "speed_kmh": 7.5,
+            "has_ball": false
+          },
+          {
+            "id": 18,
+            "position": [
+              30.79,
+              22.29
+            ],
+            "speed_kmh": 2.7,
+            "has_ball": false
+          },
+          {
+            "id": 12,
+            "position": [
+              7.06,
+              18.53
+            ],
+            "speed_kmh": 3.5,
+            "has_ball": true
+          },
+          {
+            "id": 10,
+            "position": [
+              23.92,
+              18.37
+            ],
+            "speed_kmh": 9.0,
+            "has_ball": false
+          },
+          {
+            "id": 11,
+            "position": [
+              19.82,
+              5.25
+            ],
+            "speed_kmh": 13.1,
+            "has_ball": false
+          },
+          {
+            "id": 9,
+            "position": [
+              10.67,
+              12.4
+            ],
+            "speed_kmh": 6.7,
+            "has_ball": false
+          },
+          {
+            "id": 19,
+            "position": [
+              24.11,
+              11.66
+            ],
+            "speed_kmh": 7.0,
+            "has_ball": false
+          },
+          {
+            "id": 6,
+            "position": [
+              38.26,
+              13.19
+            ],
+            "speed_kmh": 7.5,
+            "has_ball": false
+          },
+          {
+            "id": 14,
+            "position": [
+              37.34,
+              10.6
+            ],
+            "speed_kmh": 8.0,
+            "has_ball": false
+          },
+          {
+            "id": 29,
+            "position": [
+              35.6,
+              3.14
+            ],
+            "speed_kmh": 12.6,
+            "has_ball": false
+          }
+        ],
+        "team_2": [
+          {
+            "id": 2,
+            "position": [
+              35.81,
+              18.24
+            ],
+            "speed_kmh": 4.3,
+            "has_ball": false
+          },
+          {
+            "id": 3,
+            "position": [
+              26.33,
+              18.72
+            ],
+            "speed_kmh": 4.4,
+            "has_ball": false
+          },
+          {
+            "id": 1,
+            "position": [
+              26.67,
+              12.76
+            ],
+            "speed_kmh": 3.5,
+            "has_ball": false
+          },
+          {
+            "id": 98,
+            "position": [
+              -2.84,
+              11.82
+            ],
+            "speed_kmh": 2.7,
+            "has_ball": false
+          },
+          {
+            "id": 4,
+            "position": [
+              10.83,
+              18.31
+            ],
+            "speed_kmh": 2.7,
+            "has_ball": false
+          },
+          {
+            "id": 7,
+            "position": [
+              38.12,
+              15.15
+            ],
+            "speed_kmh": 5.4,
+            "has_ball": false
+          },
+          {
+            "id": 8,
+            "position": [
+              13.74,
+              12.77
+            ],
+            "speed_kmh": 7.2,
+            "has_ball": false
+          },
+          {
+            "id": 15,
+            "position": [
+              28.23,
+              9.07
+            ],
+            "speed_kmh": 7.7,
+            "has_ball": false
+          },
+          {
+            "id": 26,
+            "position": [
+              36.38,
+              7.76
+            ],
+            "speed_kmh": 9.7,
+            "has_ball": false
+          },
+          {
+            "id": 5,
+            "position": [
+              36.97,
+              11.28
+            ],
+            "speed_kmh": 5.7,
+            "has_ball": false
+          }
+        ]
+      },
+      "ball": null
+    }
+  },
+  {
+    "event_id": 3,
+    "release_frame": 427,
+    "passer_id": 127,
+    "passer_team": 2,
+    "passer_position": [
+      23.36,
+      4.42
+    ],
+    "position_vector": [
+      2.18,
+      14.18,
+      14.2,
+      15.8,
+      3.76,
+      18.35,
+      17.0,
+      16.16,
+      16.03,
+      20.55,
+      26.62,
+      21.57,
+      9.46,
+      10.3,
+      35.19,
+      13.58,
+      1.94,
+      6.19,
+      16.34,
+      1.51,
+      20.24,
+      11.85,
+      27.52,
+      13.67,
+      20.34,
+      14.8,
+      8.46,
+      18.07,
+      3.48,
+      14.63,
+      11.51,
+      9.33,
+      31.32,
+      16.44,
+      23.36,
+      4.42,
+      26.29,
+      17.55,
+      32.45,
+      14.3
+    ],
+    "open_teammates": [
+      {
+        "id": 2,
+        "position": [
+          27.52,
+          13.67
+        ],
+        "distance_from_passer": 10.15,
+        "lane_clearance": 7.59,
+        "speed_kmh": 2.3
+      },
+      {
+        "id": 1,
+        "position": [
+          20.24,
+          11.85
+        ],
+        "distance_from_passer": 8.06,
+        "lane_clearance": 5.4,
+        "speed_kmh": 0.0
+      },
+      {
+        "id": 111,
+        "position": [
+          31.32,
+          16.44
+        ],
+        "distance_from_passer": 14.41,
+        "lane_clearance": 4.81,
+        "speed_kmh": 1.7
+      },
+      {
+        "id": 136,
+        "position": [
+          26.29,
+          17.55
+        ],
+        "distance_from_passer": 13.45,
+        "lane_clearance": 4.04,
+        "speed_kmh": 8.7
+      },
+      {
+        "id": 3,
+        "position": [
+          20.34,
+          14.8
+        ],
+        "distance_from_passer": 10.82,
+        "lane_clearance": 3.61,
+        "speed_kmh": 0.0
+      },
+      {
+        "id": 139,
+        "position": [
+          32.45,
+          14.3
+        ],
+        "distance_from_passer": 13.43,
+        "lane_clearance": 2.83,
+        "speed_kmh": 3.1
+      },
+      {
+        "id": 15,
+        "position": [
+          11.51,
+          9.33
+        ],
+        "distance_from_passer": 12.83,
+        "lane_clearance": 2.27,
+        "speed_kmh": 2.4
+      },
+      {
+        "id": 4,
+        "position": [
+          8.46,
+          18.07
+        ],
+        "distance_from_passer": 20.21,
+        "lane_clearance": 2.21,
+        "speed_kmh": 0.0
+      }
+    ],
+    "tactical_snapshot": {
+      "frame": 427,
+      "timestamp": "00:00:17.080",
+      "players": {
+        "team_1": [
+          {
+            "id": 133,
+            "position": [
+              35.19,
+              13.58
+            ],
+            "speed_kmh": 1.7,
+            "has_ball": false
+          },
+          {
+            "id": 18,
+            "position": [
+              26.62,
+              21.57
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 16,
+            "position": [
+              16.03,
+              20.55
+            ],
+            "speed_kmh": 2.2,
+            "has_ball": false
+          },
+          {
+            "id": 10,
+            "position": [
+              14.2,
+              15.8
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 12,
+            "position": [
+              3.76,
+              18.35
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 19,
+            "position": [
+              9.46,
+              10.3
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 140,
+            "position": [
+              1.94,
+              6.19
+            ],
+            "speed_kmh": 11.3,
+            "has_ball": false
+          },
+          {
+            "id": 9,
+            "position": [
+              2.18,
+              14.18
+            ],
+            "speed_kmh": 1.7,
+            "has_ball": false
+          },
+          {
+            "id": 14,
+            "position": [
+              17.0,
+              16.16
+            ],
+            "speed_kmh": 2.9,
+            "has_ball": false
+          },
+          {
+            "id": 149,
+            "position": [
+              16.34,
+              1.51
+            ],
+            "speed_kmh": 15.0,
+            "has_ball": false
+          }
+        ],
+        "team_2": [
+          {
+            "id": 2,
+            "position": [
+              27.52,
+              13.67
+            ],
+            "speed_kmh": 2.3,
+            "has_ball": false
+          },
+          {
+            "id": 136,
+            "position": [
+              26.29,
+              17.55
+            ],
+            "speed_kmh": 8.7,
+            "has_ball": false
+          },
+          {
+            "id": 3,
+            "position": [
+              20.34,
+              14.8
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 111,
+            "position": [
+              31.32,
+              16.44
+            ],
+            "speed_kmh": 1.7,
+            "has_ball": false
+          },
+          {
+            "id": 4,
+            "position": [
+              8.46,
+              18.07
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 127,
+            "position": [
+              23.36,
+              4.42
+            ],
+            "speed_kmh": 6.7,
+            "has_ball": true
+          },
+          {
+            "id": 8,
+            "position": [
+              3.48,
+              14.63
+            ],
+            "speed_kmh": 1.8,
+            "has_ball": false
+          },
+          {
+            "id": 139,
+            "position": [
+              32.45,
+              14.3
+            ],
+            "speed_kmh": 3.1,
+            "has_ball": false
+          },
+          {
+            "id": 1,
+            "position": [
+              20.24,
+              11.85
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 15,
+            "position": [
+              11.51,
+              9.33
+            ],
+            "speed_kmh": 2.4,
+            "has_ball": false
+          }
+        ]
+      },
+      "ball": null
+    }
+  },
+  {
+    "event_id": 4,
+    "release_frame": 451,
+    "passer_id": 133,
+    "passer_team": 1,
+    "passer_position": [
+      35.05,
+      14.39
+    ],
+    "position_vector": [
+      1.12,
+      14.5,
+      15.03,
+      16.08,
+      4.11,
+      19.05,
+      15.88,
+      16.72,
+      17.12,
+      21.11,
+      29.07,
+      21.41,
+      8.76,
+      10.78,
+      35.05,
+      14.39,
+      1.16,
+      6.61,
+      14.99,
+      1.9,
+      21.22,
+      12.52,
+      27.45,
+      13.67,
+      19.42,
+      14.81,
+      9.63,
+      18.57,
+      3.02,
+      15.13,
+      11.57,
+      9.57,
+      34.43,
+      18.49,
+      22.73,
+      4.9,
+      28.74,
+      18.11,
+      30.15,
+      15.06
+    ],
+    "open_teammates": [
+      {
+        "id": 18,
+        "position": [
+          29.07,
+          21.41
+        ],
+        "distance_from_passer": 9.22,
+        "lane_clearance": 2.19,
+        "speed_kmh": 0.0
+      }
+    ],
+    "tactical_snapshot": {
+      "frame": 451,
+      "timestamp": "00:00:18.040",
+      "players": {
+        "team_1": [
+          {
+            "id": 12,
+            "position": [
+              4.11,
+              19.05
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 9,
+            "position": [
+              1.12,
+              14.5
+            ],
+            "speed_kmh": 1.7,
+            "has_ball": false
+          },
+          {
+            "id": 140,
+            "position": [
+              1.16,
+              6.61
+            ],
+            "speed_kmh": 9.5,
+            "has_ball": false
+          },
+          {
+            "id": 18,
+            "position": [
+              29.07,
+              21.41
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 133,
+            "position": [
+              35.05,
+              14.39
+            ],
+            "speed_kmh": 1.9,
+            "has_ball": true
+          },
+          {
+            "id": 16,
+            "position": [
+              17.12,
+              21.11
+            ],
+            "speed_kmh": 1.9,
+            "has_ball": false
+          },
+          {
+            "id": 149,
+            "position": [
+              14.99,
+              1.9
+            ],
+            "speed_kmh": 12.7,
+            "has_ball": false
+          },
+          {
+            "id": 10,
+            "position": [
+              15.03,
+              16.08
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 19,
+            "position": [
+              8.76,
+              10.78
+            ],
+            "speed_kmh": 1.7,
+            "has_ball": false
+          },
+          {
+            "id": 14,
+            "position": [
+              15.88,
+              16.72
+            ],
+            "speed_kmh": 3.5,
+            "has_ball": false
+          }
+        ],
+        "team_2": [
+          {
+            "id": 2,
+            "position": [
+              27.45,
+              13.67
+            ],
+            "speed_kmh": 2.1,
+            "has_ball": false
+          },
+          {
+            "id": 139,
+            "position": [
+              30.15,
+              15.06
+            ],
+            "speed_kmh": 3.3,
+            "has_ball": false
+          },
+          {
+            "id": 15,
+            "position": [
+              11.57,
+              9.57
+            ],
+            "speed_kmh": 2.8,
+            "has_ball": false
+          },
+          {
+            "id": 4,
+            "position": [
+              9.63,
+              18.57
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 136,
+            "position": [
+              28.74,
+              18.11
+            ],
+            "speed_kmh": 7.3,
+            "has_ball": false
+          },
+          {
+            "id": 127,
+            "position": [
+              22.73,
+              4.9
+            ],
+            "speed_kmh": 6.2,
+            "has_ball": false
+          },
+          {
+            "id": 8,
+            "position": [
+              3.02,
+              15.13
+            ],
+            "speed_kmh": 1.9,
+            "has_ball": false
+          },
+          {
+            "id": 111,
+            "position": [
+              34.43,
+              18.49
+            ],
+            "speed_kmh": 1.6,
+            "has_ball": false
+          },
+          {
+            "id": 3,
+            "position": [
+              19.42,
+              14.81
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          },
+          {
+            "id": 1,
+            "position": [
+              21.22,
+              12.52
+            ],
+            "speed_kmh": 0.0,
+            "has_ball": false
+          }
+        ]
+      },
+      "ball": null
+    }
+  }
+]

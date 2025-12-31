@@ -4,10 +4,22 @@ from logic_files.utils import get_center_of_bbox, measure_distance, get_foot_pos
 
 class PlayerBallAssigner():
     def __init__(self):
-        self.max_player_ball_distance = 70
+        self.max_player_ball_distance = 100  # Increased from 70 to capture more possessions
 
     def assign_ball_to_player(self, players, ball_bbox):
-       
+        """
+        Assign ball to the closest player within threshold distance.
+        
+        Args:
+            players: Dictionary of player tracks with bbox
+            ball_bbox: Ball bounding box [x1, y1, x2, y2]
+            
+        Returns:
+            Player ID of assigned player, or -1 if no assignment
+        """
+        if ball_bbox is None:
+            return -1
+            
         ball_position = get_center_of_bbox(ball_bbox)
 
         minimum_distance = 99999

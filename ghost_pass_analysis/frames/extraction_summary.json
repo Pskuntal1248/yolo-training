@@ -1,0 +1,26 @@
+{
+  "total_passes": 4,
+  "extracted_passes": [
+    {
+      "event_id": 1,
+      "directory": "ghost_pass_analysis/frames/pass_001",
+      "frames_extracted": 50
+    },
+    {
+      "event_id": 2,
+      "directory": "ghost_pass_analysis/frames/pass_002",
+      "frames_extracted": 45
+    },
+    {
+      "event_id": 3,
+      "directory": "ghost_pass_analysis/frames/pass_003",
+      "frames_extracted": 37
+    },
+    {
+      "event_id": 4,
+      "directory": "ghost_pass_analysis/frames/pass_004",
+      "frames_extracted": 71
+    }
+  ],
+  "total_frames_extracted": 203
+}

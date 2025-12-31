@@ -3,7 +3,7 @@
     "frame": 0,
     "timestamp": "00:00:00.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 18,
     "entities": [
       {
         "id": 1,
@@ -200,7 +200,7 @@
     "frame": 1,
     "timestamp": "00:00:00.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 18,
     "entities": [
       {
         "id": 1,
@@ -397,7 +397,7 @@
     "frame": 2,
     "timestamp": "00:00:00.083",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 18,
     "entities": [
       {
         "id": 3,
@@ -594,7 +594,7 @@
     "frame": 3,
     "timestamp": "00:00:00.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 23,
     "entities": [
       {
         "id": 2,
@@ -800,7 +800,7 @@
     "frame": 4,
     "timestamp": "00:00:00.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 23,
     "entities": [
       {
         "id": 2,
@@ -1006,7 +1006,7 @@
     "frame": 5,
     "timestamp": "00:00:00.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 23,
     "entities": [
       {
         "id": 4,
@@ -1436,7 +1436,7 @@
     "frame": 7,
     "timestamp": "00:00:00.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 18,
     "entities": [
       {
         "id": 4,
@@ -1660,7 +1660,7 @@
     "frame": 8,
     "timestamp": "00:00:00.333",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 23,
     "entities": [
       {
         "id": 5,
@@ -1875,7 +1875,7 @@
     "frame": 9,
     "timestamp": "00:00:00.375",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 23,
     "entities": [
       {
         "id": 4,
@@ -2323,7 +2323,7 @@
     "frame": 11,
     "timestamp": "00:00:00.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 23,
     "entities": [
       {
         "id": 1,
@@ -2538,7 +2538,7 @@
     "frame": 12,
     "timestamp": "00:00:00.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 1,
@@ -4428,7 +4428,7 @@
     "frame": 21,
     "timestamp": "00:00:00.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 3,
@@ -4643,7 +4643,7 @@
     "frame": 22,
     "timestamp": "00:00:00.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 16,
@@ -5718,7 +5718,7 @@
     "frame": 27,
     "timestamp": "00:00:01.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 2,
@@ -5933,7 +5933,7 @@
     "frame": 28,
     "timestamp": "00:00:01.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 2,
@@ -6148,7 +6148,7 @@
     "frame": 29,
     "timestamp": "00:00:01.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 4,
@@ -6363,7 +6363,7 @@
     "frame": 30,
     "timestamp": "00:00:01.250",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 4,
@@ -6578,7 +6578,7 @@
     "frame": 31,
     "timestamp": "00:00:01.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 7,
@@ -7008,7 +7008,7 @@
     "frame": 33,
     "timestamp": "00:00:01.375",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 2,
@@ -11075,7 +11075,7 @@
     "frame": 52,
     "timestamp": "00:00:02.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 2,
@@ -11281,7 +11281,7 @@
     "frame": 53,
     "timestamp": "00:00:02.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 2,
@@ -12105,7 +12105,7 @@
     "frame": 57,
     "timestamp": "00:00:02.375",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 4,
     "entities": [
       {
         "id": 7,
@@ -12311,7 +12311,7 @@
     "frame": 58,
     "timestamp": "00:00:02.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 4,
     "entities": [
       {
         "id": 3,
@@ -12517,7 +12517,7 @@
     "frame": 59,
     "timestamp": "00:00:02.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 4,
     "entities": [
       {
         "id": 7,
@@ -12714,7 +12714,7 @@
     "frame": 60,
     "timestamp": "00:00:02.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 4,
     "entities": [
       {
         "id": 16,
@@ -18679,7 +18679,7 @@
     "frame": 89,
     "timestamp": "00:00:03.708",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 2,
@@ -18885,7 +18885,7 @@
     "frame": 90,
     "timestamp": "00:00:03.750",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 9,
@@ -19091,7 +19091,7 @@
     "frame": 91,
     "timestamp": "00:00:03.792",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 10,
@@ -19297,7 +19297,7 @@
     "frame": 92,
     "timestamp": "00:00:03.833",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 3,
@@ -19503,7 +19503,7 @@
     "frame": 93,
     "timestamp": "00:00:03.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 19,
@@ -19709,7 +19709,7 @@
     "frame": 94,
     "timestamp": "00:00:03.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 3,
@@ -19915,7 +19915,7 @@
     "frame": 95,
     "timestamp": "00:00:03.958",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 7,
@@ -20121,7 +20121,7 @@
     "frame": 96,
     "timestamp": "00:00:04.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 1,
@@ -20327,7 +20327,7 @@
     "frame": 97,
     "timestamp": "00:00:04.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 1,
@@ -21160,7 +21160,7 @@
     "frame": 101,
     "timestamp": "00:00:04.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 4,
@@ -26731,7 +26731,7 @@
     "frame": 128,
     "timestamp": "00:00:05.333",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 3,
@@ -26928,7 +26928,7 @@
     "frame": 129,
     "timestamp": "00:00:05.375",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 12,
@@ -27116,7 +27116,7 @@
     "frame": 130,
     "timestamp": "00:00:05.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 12,
     "entities": [
       {
         "id": 16,
@@ -31934,7 +31934,7 @@
     "frame": 154,
     "timestamp": "00:00:06.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 10,
@@ -32149,7 +32149,7 @@
     "frame": 155,
     "timestamp": "00:00:06.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 16,
@@ -32364,7 +32364,7 @@
     "frame": 156,
     "timestamp": "00:00:06.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 16,
@@ -32579,7 +32579,7 @@
     "frame": 157,
     "timestamp": "00:00:06.542",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 4,
@@ -32803,7 +32803,7 @@
     "frame": 158,
     "timestamp": "00:00:06.583",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 4,
@@ -33009,7 +33009,7 @@
     "frame": 159,
     "timestamp": "00:00:06.625",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 4,
@@ -63733,7 +63733,7 @@
     "frame": 305,
     "timestamp": "00:00:12.708",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 16,
@@ -63957,7 +63957,7 @@
     "frame": 306,
     "timestamp": "00:00:12.750",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 98,
     "entities": [
       {
         "id": 18,
@@ -64611,7 +64611,7 @@
     "frame": 309,
     "timestamp": "00:00:12.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 8,
     "entities": [
       {
         "id": 18,
@@ -64826,7 +64826,7 @@
     "frame": 310,
     "timestamp": "00:00:12.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 8,
     "entities": [
       {
         "id": 18,
@@ -65489,7 +65489,7 @@
     "frame": 313,
     "timestamp": "00:00:13.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 9,
     "entities": [
       {
         "id": 18,
@@ -66161,7 +66161,7 @@
     "frame": 316,
     "timestamp": "00:00:13.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 9,
     "entities": [
       {
         "id": 4,
@@ -66385,7 +66385,7 @@
     "frame": 317,
     "timestamp": "00:00:13.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 9,
     "entities": [
       {
         "id": 18,
@@ -66609,7 +66609,7 @@
     "frame": 318,
     "timestamp": "00:00:13.250",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 140,
     "entities": [
       {
         "id": 4,
@@ -66833,7 +66833,7 @@
     "frame": 319,
     "timestamp": "00:00:13.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 140,
     "entities": [
       {
         "id": 4,
@@ -68105,7 +68105,7 @@
     "frame": 325,
     "timestamp": "00:00:13.542",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 19,
     "entities": [
       {
         "id": 18,
@@ -70524,7 +70524,7 @@
     "frame": 336,
     "timestamp": "00:00:14.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 15,
     "entities": [
       {
         "id": 14,
@@ -70748,7 +70748,7 @@
     "frame": 337,
     "timestamp": "00:00:14.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 16,
@@ -70972,7 +70972,7 @@
     "frame": 338,
     "timestamp": "00:00:14.083",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 16,
@@ -71187,7 +71187,7 @@
     "frame": 339,
     "timestamp": "00:00:14.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 12,
@@ -71411,7 +71411,7 @@
     "frame": 340,
     "timestamp": "00:00:14.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 12,
@@ -72961,7 +72961,7 @@
     "frame": 347,
     "timestamp": "00:00:14.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 149,
     "entities": [
       {
         "id": 12,
@@ -73176,7 +73176,7 @@
     "frame": 348,
     "timestamp": "00:00:14.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 149,
     "entities": [
       {
         "id": 18,
@@ -73606,7 +73606,7 @@
     "frame": 350,
     "timestamp": "00:00:14.583",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 1,
@@ -73821,7 +73821,7 @@
     "frame": 351,
     "timestamp": "00:00:14.625",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 1,
@@ -74018,7 +74018,7 @@
     "frame": 352,
     "timestamp": "00:00:14.667",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -74636,7 +74636,7 @@
     "frame": 355,
     "timestamp": "00:00:14.792",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 16,
@@ -74851,7 +74851,7 @@
     "frame": 356,
     "timestamp": "00:00:14.833",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -75057,7 +75057,7 @@
     "frame": 357,
     "timestamp": "00:00:14.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 12,
@@ -75272,7 +75272,7 @@
     "frame": 358,
     "timestamp": "00:00:14.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 2,
     "entities": [
       {
         "id": 12,
@@ -75487,7 +75487,7 @@
     "frame": 359,
     "timestamp": "00:00:14.958",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 2,
     "entities": [
       {
         "id": 12,
@@ -79204,7 +79204,7 @@
     "frame": 377,
     "timestamp": "00:00:15.708",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 2,
     "entities": [
       {
         "id": 12,
@@ -79401,7 +79401,7 @@
     "frame": 378,
     "timestamp": "00:00:15.750",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 2,
     "entities": [
       {
         "id": 18,
@@ -79607,7 +79607,7 @@
     "frame": 379,
     "timestamp": "00:00:15.792",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 2,
     "entities": [
       {
         "id": 18,
@@ -80225,7 +80225,7 @@
     "frame": 382,
     "timestamp": "00:00:15.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -80431,7 +80431,7 @@
     "frame": 383,
     "timestamp": "00:00:15.958",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -80637,7 +80637,7 @@
     "frame": 384,
     "timestamp": "00:00:16.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -80852,7 +80852,7 @@
     "frame": 385,
     "timestamp": "00:00:16.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -81049,7 +81049,7 @@
     "frame": 386,
     "timestamp": "00:00:16.083",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -81255,7 +81255,7 @@
     "frame": 387,
     "timestamp": "00:00:16.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 16,
@@ -81470,7 +81470,7 @@
     "frame": 388,
     "timestamp": "00:00:16.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 16,
@@ -81685,7 +81685,7 @@
     "frame": 389,
     "timestamp": "00:00:16.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -81900,7 +81900,7 @@
     "frame": 390,
     "timestamp": "00:00:16.250",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -82097,7 +82097,7 @@
     "frame": 391,
     "timestamp": "00:00:16.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -82303,7 +82303,7 @@
     "frame": 392,
     "timestamp": "00:00:16.333",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -84175,7 +84175,7 @@
     "frame": 401,
     "timestamp": "00:00:16.708",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -84390,7 +84390,7 @@
     "frame": 402,
     "timestamp": "00:00:16.750",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 12,
@@ -85035,7 +85035,7 @@
     "frame": 405,
     "timestamp": "00:00:16.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 16,
@@ -85250,7 +85250,7 @@
     "frame": 406,
     "timestamp": "00:00:16.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 18,
@@ -85877,7 +85877,7 @@
     "frame": 409,
     "timestamp": "00:00:17.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 18,
@@ -86092,7 +86092,7 @@
     "frame": 410,
     "timestamp": "00:00:17.083",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 18,
@@ -86307,7 +86307,7 @@
     "frame": 411,
     "timestamp": "00:00:17.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 18,
@@ -86522,7 +86522,7 @@
     "frame": 412,
     "timestamp": "00:00:17.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 18,
@@ -87167,7 +87167,7 @@
     "frame": 415,
     "timestamp": "00:00:17.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -87382,7 +87382,7 @@
     "frame": 416,
     "timestamp": "00:00:17.333",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -88887,7 +88887,7 @@
     "frame": 423,
     "timestamp": "00:00:17.625",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 19,
@@ -89102,7 +89102,7 @@
     "frame": 424,
     "timestamp": "00:00:17.667",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 2,
@@ -89317,7 +89317,7 @@
     "frame": 425,
     "timestamp": "00:00:17.708",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 2,
@@ -89532,7 +89532,7 @@
     "frame": 426,
     "timestamp": "00:00:17.750",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 18,
@@ -89747,7 +89747,7 @@
     "frame": 427,
     "timestamp": "00:00:17.792",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 127,
     "entities": [
       {
         "id": 133,
@@ -93160,7 +93160,7 @@
     "frame": 443,
     "timestamp": "00:00:18.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 2,
@@ -94853,7 +94853,7 @@
     "frame": 451,
     "timestamp": "00:00:18.792",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 2,
@@ -105621,7 +105621,7 @@
     "frame": 501,
     "timestamp": "00:00:20.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 4,
@@ -105845,7 +105845,7 @@
     "frame": 502,
     "timestamp": "00:00:20.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 18,
@@ -106069,7 +106069,7 @@
     "frame": 503,
     "timestamp": "00:00:20.958",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 2,
@@ -106293,7 +106293,7 @@
     "frame": 504,
     "timestamp": "00:00:21.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 14,
@@ -106517,7 +106517,7 @@
     "frame": 505,
     "timestamp": "00:00:21.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 14,
@@ -112439,7 +112439,7 @@
     "frame": 532,
     "timestamp": "00:00:22.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 16,
@@ -112672,7 +112672,7 @@
     "frame": 533,
     "timestamp": "00:00:22.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 10,
@@ -112905,7 +112905,7 @@
     "frame": 534,
     "timestamp": "00:00:22.250",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 111,
     "entities": [
       {
         "id": 16,
@@ -113129,7 +113129,7 @@
     "frame": 535,
     "timestamp": "00:00:22.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 18,
@@ -113353,7 +113353,7 @@
     "frame": 536,
     "timestamp": "00:00:22.333",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 16,
@@ -113568,7 +113568,7 @@
     "frame": 537,
     "timestamp": "00:00:22.375",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 10,
@@ -113783,7 +113783,7 @@
     "frame": 538,
     "timestamp": "00:00:22.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 16,
@@ -114007,7 +114007,7 @@
     "frame": 539,
     "timestamp": "00:00:22.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 16,
@@ -114231,7 +114231,7 @@
     "frame": 540,
     "timestamp": "00:00:22.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 16,
@@ -119060,7 +119060,7 @@
     "frame": 562,
     "timestamp": "00:00:23.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 18,
@@ -119284,7 +119284,7 @@
     "frame": 563,
     "timestamp": "00:00:23.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 18,
@@ -119508,7 +119508,7 @@
     "frame": 564,
     "timestamp": "00:00:23.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 18,
@@ -119929,7 +119929,7 @@
     "frame": 566,
     "timestamp": "00:00:23.583",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 139,
     "entities": [
       {
         "id": 16,
@@ -121658,7 +121658,7 @@
     "frame": 574,
     "timestamp": "00:00:23.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 139,
     "entities": [
       {
         "id": 14,
@@ -121882,7 +121882,7 @@
     "frame": 575,
     "timestamp": "00:00:23.958",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 139,
     "entities": [
       {
         "id": 18,
@@ -123002,7 +123002,7 @@
     "frame": 580,
     "timestamp": "00:00:24.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 18,
@@ -124570,7 +124570,7 @@
     "frame": 587,
     "timestamp": "00:00:24.458",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 10,
@@ -124794,7 +124794,7 @@
     "frame": 588,
     "timestamp": "00:00:24.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 10,
@@ -126335,7 +126335,7 @@
     "frame": 595,
     "timestamp": "00:00:24.792",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 18,
@@ -126550,7 +126550,7 @@
     "frame": 596,
     "timestamp": "00:00:24.833",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 4,
@@ -127419,7 +127419,7 @@
     "frame": 600,
     "timestamp": "00:00:25.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 10,
@@ -127643,7 +127643,7 @@
     "frame": 601,
     "timestamp": "00:00:25.042",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 3,
     "entities": [
       {
         "id": 14,
@@ -127867,7 +127867,7 @@
     "frame": 602,
     "timestamp": "00:00:25.083",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 3,
     "entities": [
       {
         "id": 12,
@@ -128091,7 +128091,7 @@
     "frame": 603,
     "timestamp": "00:00:25.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 3,
     "entities": [
       {
         "id": 12,
@@ -128315,7 +128315,7 @@
     "frame": 604,
     "timestamp": "00:00:25.167",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 1,
     "entities": [
       {
         "id": 18,
@@ -138645,7 +138645,7 @@
     "frame": 651,
     "timestamp": "00:00:27.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 2,
     "entities": [
       {
         "id": 18,
@@ -145526,7 +145526,7 @@
     "frame": 682,
     "timestamp": "00:00:28.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 8,
@@ -145974,7 +145974,7 @@
     "frame": 684,
     "timestamp": "00:00:28.500",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 18,
@@ -146198,7 +146198,7 @@
     "frame": 685,
     "timestamp": "00:00:28.542",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 16,
     "entities": [
       {
         "id": 18,
@@ -147963,7 +147963,7 @@
     "frame": 693,
     "timestamp": "00:00:28.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 139,
     "entities": [
       {
         "id": 16,
@@ -149083,7 +149083,7 @@
     "frame": 698,
     "timestamp": "00:00:29.083",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 9,
     "entities": [
       {
         "id": 14,
@@ -149307,7 +149307,7 @@
     "frame": 699,
     "timestamp": "00:00:29.125",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 9,
     "entities": [
       {
         "id": 14,
@@ -150848,7 +150848,7 @@
     "frame": 706,
     "timestamp": "00:00:29.417",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 8,
     "entities": [
       {
         "id": 8,
@@ -151511,7 +151511,7 @@
     "frame": 709,
     "timestamp": "00:00:29.542",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 133,
     "entities": [
       {
         "id": 8,
@@ -152165,7 +152165,7 @@
     "frame": 712,
     "timestamp": "00:00:29.667",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 14,
@@ -153249,7 +153249,7 @@
     "frame": 717,
     "timestamp": "00:00:29.875",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 223,
     "entities": [
       {
         "id": 14,
@@ -153455,7 +153455,7 @@
     "frame": 718,
     "timestamp": "00:00:29.917",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 3,
     "entities": [
       {
         "id": 140,
@@ -153670,7 +153670,7 @@
     "frame": 719,
     "timestamp": "00:00:29.958",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 9,
     "entities": [
       {
         "id": 14,
@@ -153885,7 +153885,7 @@
     "frame": 720,
     "timestamp": "00:00:30.000",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 8,
     "entities": [
       {
         "id": 16,
@@ -154978,7 +154978,7 @@
     "frame": 725,
     "timestamp": "00:00:30.208",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 10,
     "entities": [
       {
         "id": 140,
@@ -155426,7 +155426,7 @@
     "frame": 727,
     "timestamp": "00:00:30.292",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 14,
     "entities": [
       {
         "id": 18,
@@ -155874,7 +155874,7 @@
     "frame": 729,
     "timestamp": "00:00:30.375",
     "ball": null,
-    "possession_player_id": null,
+    "possession_player_id": 139,
     "entities": [
       {
         "id": 16,

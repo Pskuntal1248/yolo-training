@@ -1,0 +1,31 @@
+{
+  "event_id": 3,
+  "release_frame": 427,
+  "failure_frame": 443,
+  "last_touch_frame": 427,
+  "duration_frames": 16,
+  "duration_seconds": 0.64,
+  "passer": {
+    "id": 127,
+    "team": 2,
+    "position_at_release": [
+      23.36,
+      4.42
+    ]
+  },
+  "interceptor": {
+    "id": 133,
+    "team": 1,
+    "position_at_failure": [
+      35.16,
+      14.31
+    ]
+  },
+  "pass_distance_meters": 0,
+  "num_open_options": 8,
+  "frames_extracted": 37,
+  "frame_range": [
+    417,
+    453
+  ]
+}
