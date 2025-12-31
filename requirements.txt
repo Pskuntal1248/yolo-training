@@ -9,3 +9,5 @@ pyyaml
 scipy
 requests
 psutil
+supervision
+filterpy
